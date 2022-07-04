@@ -1,0 +1,45 @@
+@media screen and (max-width:715px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .botoes button{
+        margin-top: 10px;
+        width: 55%;
+    }
+    .filme-principal{
+        height: 600px;
+    }
+    .titulo{
+        width: 60vw;
+    }
+    .descricao{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .filme-principal{
+        height: 700px;
+    }
+    .titulo{
+        width: 55vw;
+    }
+    .descricao{
+        font-size: 16px;
+    } .carrosel-filmes h4{
+        font-size: 15px;
+    }
+   
+
+    
+}
+@media screen and (min-width:1000px) {
+   
+
+    .descricao{
+        width: 60%;
+    }
+    
+
+}

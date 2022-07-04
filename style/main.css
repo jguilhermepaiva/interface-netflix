@@ -1,0 +1,107 @@
+:root{
+    --vermelho: #E50914;
+    --preto:#141414;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+header .logo{
+    width: 140px;
+    margin: 15px 40px 15px 40px;
+    cursor: pointer;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #AAA;
+}
+.filme-principal{
+    font-size: 18px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/peakyblinders.jpg');
+
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.descricao{
+    margin: 30px;
+}
+
+.titulo{
+    margin: 0 30px;
+    width: 70vh;
+}
+
+.botoes button{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    margin: 0 0 0 30px;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botoes button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s ease all;
+}
+
+.botoes button i{
+    
+    margin-right: 10px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.carrosel-filmes{
+    margin:10px 0 0 55px;
+}
+.item img{
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.carrosel-filmes h4{
+    color: LightGrey;
+    font-size: 1.2vw;
+    padding-bottom: 10px;
+}
+
